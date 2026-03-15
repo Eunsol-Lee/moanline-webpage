@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="모앤라인성형외과 공식 홈페이지 — 헤어라인교정술, 모발이식, 탈모치료 전문 성형외과. 무삭발 비절개 대량 이식, 흉터 최소화." />
-  <meta name="keywords" content="모앤라인성형외과, 헤어라인교정술, 모발이식, 탈모치료, 무삭발, 비절개, 강남성형외과" />
+  <meta name="description" content="모앤라인성형외과 공식 홈페이지 — 헤어라인교정술, 모발이식, 탈모치료 전문 성형외과. 무삭발 비절개 대량 이식, 흉터 최소화. 강남 신사역 2번 출구 앞." />
+  <meta name="keywords" content="모앤라인성형외과, 헤어라인교정술, 모발이식, 탈모치료, 무삭발, 비절개, 강남성형외과, 신사역, 이마교정, M자탈모" />
   <title>모앤라인성형외과 | 헤어라인교정술·모발이식·탈모치료 전문</title>
 
   <!-- Google Fonts: Noto Sans KR -->
@@ -25,11 +25,12 @@
   />
 
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/extended.css" />
 </head>
 <body>
 
   <!-- ==============================
-       HEADER / NAVIGATION
+       HEADER / NAVIGATION (Mega Menu)
   ================================ -->
   <header class="header" id="header">
     <div class="container header__inner">
@@ -39,10 +40,128 @@
 
       <nav class="nav" id="nav">
         <ul class="nav__list">
-          <li><a href="#services" class="nav__link">진료 과목</a></li>
-          <li><a href="#doctor" class="nav__link">의료진 소개</a></li>
-          <li><a href="#gallery" class="nav__link">시술 사례</a></li>
-          <li><a href="#location" class="nav__link">오시는 길</a></li>
+
+          <!-- 헤어라인교정술 노하우 -->
+          <li class="nav__item nav__item--has-dropdown">
+            <a href="#knowhow" class="nav__link nav__link--dropdown-trigger">
+              헤어라인교정술 노하우 <i class="fa-solid fa-chevron-down nav__chevron"></i>
+            </a>
+            <div class="nav__dropdown">
+              <div class="nav__dropdown-inner">
+                <ul class="nav__dropdown-list">
+                  <li><a href="#knowhow-1" class="nav__dropdown-link">무삭발 비절개 대량 이식</a></li>
+                  <li><a href="#knowhow-2" class="nav__dropdown-link">흉터 최소화 두피절개술</a></li>
+                  <li><a href="#knowhow-3" class="nav__dropdown-link">잔머리부터 그라데이션 구현</a></li>
+                  <li><a href="#knowhow-4" class="nav__dropdown-link">자연스러운 헤어라인 슬릿 디자인</a></li>
+                  <li><a href="#knowhow-5" class="nav__dropdown-link">고난이도 재수술노하우</a></li>
+                  <li><a href="#knowhow-6" class="nav__dropdown-link">고생착 모낭이식술로 안정적 밀도</a></li>
+                  <li><a href="#knowhow-7" class="nav__dropdown-link">업그레이드된 모낭 이식술 노하우</a></li>
+                  <li><a href="#knowhow-8" class="nav__dropdown-link">슬릿, 채취, 이식 원장 진행</a></li>
+                  <li><a href="#knowhow-9" class="nav__dropdown-link">연예인의 노 쉐이빙 헤어라인교정</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <!-- 헤어라인교정술 궁금증 -->
+          <li class="nav__item nav__item--has-dropdown">
+            <a href="#faq" class="nav__link nav__link--dropdown-trigger">
+              헤어라인교정술 궁금증 <i class="fa-solid fa-chevron-down nav__chevron"></i>
+            </a>
+            <div class="nav__dropdown">
+              <div class="nav__dropdown-inner">
+                <ul class="nav__dropdown-list">
+                  <li><a href="#faq-1" class="nav__dropdown-link">무삭발 비절개로는 대량이식 안돼?</a></li>
+                  <li><a href="#faq-2" class="nav__dropdown-link">절개 채취 후 두드러진 뒷머리 흉터</a></li>
+                  <li><a href="#faq-3" class="nav__dropdown-link">맨앞에서 굵은 머리가 나오는 이유</a></li>
+                  <li><a href="#faq-4" class="nav__dropdown-link">잔머리 실종, 이식부위 흉터 생긴 이유</a></li>
+                  <li><a href="#faq-5" class="nav__dropdown-link">새로 난 머리 밀도가 떨어진 이유</a></li>
+                  <li><a href="#faq-6" class="nav__dropdown-link">이마가 여전히 넓거나 어색해진 경우</a></li>
+                  <li><a href="#faq-7" class="nav__dropdown-link">측면, 구레나룻이 어색한 경우</a></li>
+                  <li><a href="#faq-8" class="nav__dropdown-link">수술 후 모수가 달라진 이유</a></li>
+                  <li><a href="#faq-9" class="nav__dropdown-link">수술 후 신경이상증세를 겪은 경우</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <!-- 모앤라인 헤어라인교정술 -->
+          <li class="nav__item nav__item--has-dropdown">
+            <a href="#treatments" class="nav__link nav__link--dropdown-trigger">
+              모앤라인 헤어라인교정술 <i class="fa-solid fa-chevron-down nav__chevron"></i>
+            </a>
+            <div class="nav__dropdown">
+              <div class="nav__dropdown-inner nav__dropdown-inner--wide">
+                <ul class="nav__dropdown-list nav__dropdown-list--cols">
+                  <li><a href="#treatments" class="nav__dropdown-link">여성·남성 헤어라인 교정술의 차이</a></li>
+                  <li><a href="#treatments" class="nav__dropdown-link">안면윤곽과 헤어라인 3D 분석 디자인</a></li>
+                  <li><a href="#treatments" class="nav__dropdown-link">비절개/절개 모낭채취</a></li>
+                  <li><a href="#treatments" class="nav__dropdown-link">수술 전후 두피 적정화 케어</a></li>
+                  <li><a href="#treatments" class="nav__dropdown-link">M자, 어색한 헤어라인 교정</a></li>
+                  <li><a href="#treatments" class="nav__dropdown-link">넓은 이마 대량 모발이식</a></li>
+                  <li><a href="#treatments" class="nav__dropdown-link">헤어라인 재교정</a></li>
+                  <li><a href="#treatments" class="nav__dropdown-link">제모·반영구 문신한 헤어라인 교정</a></li>
+                  <li><a href="#treatments" class="nav__dropdown-link">흉터 부위 모발이식</a></li>
+                  <li><a href="#treatments" class="nav__dropdown-link">구레나룻, 측면 헤어라인 교정</a></li>
+                  <li><a href="#treatments" class="nav__dropdown-link">미니 헤어라인교정</a></li>
+                  <li><a href="#treatments" class="nav__dropdown-link">정수리, 쌍가마, 밀도보강 모발이식</a></li>
+                  <li><a href="#treatments" class="nav__dropdown-link">노 쉐이빙 모낭이식술</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <!-- 모앤라인 탈모치료 -->
+          <li class="nav__item nav__item--has-dropdown">
+            <a href="#services" class="nav__link nav__link--dropdown-trigger">
+              모앤라인 탈모치료 <i class="fa-solid fa-chevron-down nav__chevron"></i>
+            </a>
+            <div class="nav__dropdown">
+              <div class="nav__dropdown-inner">
+                <ul class="nav__dropdown-list">
+                  <li><a href="#services" class="nav__dropdown-link">남성탈모 모발이식</a></li>
+                  <li><a href="#services" class="nav__dropdown-link">여성탈모 모발이식</a></li>
+                  <li><a href="#services" class="nav__dropdown-link">비수술 탈모치료</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <!-- 모앤라인성형외과 -->
+          <li class="nav__item nav__item--has-dropdown">
+            <a href="#doctor" class="nav__link nav__link--dropdown-trigger">
+              모앤라인성형외과 <i class="fa-solid fa-chevron-down nav__chevron"></i>
+            </a>
+            <div class="nav__dropdown">
+              <div class="nav__dropdown-inner">
+                <ul class="nav__dropdown-list">
+                  <li><a href="#knowhow" class="nav__dropdown-link">헤어라인교정에 집중</a></li>
+                  <li><a href="#doctor" class="nav__dropdown-link">의료진 소개</a></li>
+                  <li><a href="#process" class="nav__dropdown-link">진료 전과정 미리보기</a></li>
+                  <li><a href="#contact" class="nav__dropdown-link">수술 고객 케어와 보증제</a></li>
+                  <li><a href="#location" class="nav__dropdown-link">진료시간, 오시는길</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <!-- 고객센터 -->
+          <li class="nav__item nav__item--has-dropdown">
+            <a href="#contact" class="nav__link nav__link--dropdown-trigger">
+              고객센터 <i class="fa-solid fa-chevron-down nav__chevron"></i>
+            </a>
+            <div class="nav__dropdown">
+              <div class="nav__dropdown-inner">
+                <ul class="nav__dropdown-list">
+                  <li><a href="#contact" class="nav__dropdown-link">온라인상담</a></li>
+                  <li><a href="#contact" class="nav__dropdown-link">온라인예약</a></li>
+                  <li><a href="#gallery" class="nav__dropdown-link">수술사례</a></li>
+                  <li><a href="#gallery" class="nav__dropdown-link">고객후기</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
           <li><a href="#contact" class="nav__link nav__link--cta">상담 예약</a></li>
         </ul>
       </nav>
@@ -63,18 +182,18 @@
     <section class="hero" id="hero">
       <div class="hero__overlay"></div>
       <div class="container hero__content">
-        <p class="hero__badge fade-up">강남 헤어라인·모발이식 전문</p>
+        <p class="hero__badge fade-up">아시아 대표 헤어라인교정 브랜드</p>
         <h1 class="hero__title fade-up">
-          자연스러운 헤어라인,<br />
+          헤어라인교정술에 집중해온<br />
           <em>모앤라인</em>
         </h1>
         <p class="hero__subtitle fade-up">
           무삭발 비절개 대량 이식으로 흉터를 최소화하고<br class="br--desktop" />
-          당신만의 완벽한 헤어라인을 완성합니다
+          자연스러운 헤어라인을 완성합니다
         </p>
         <div class="hero__actions fade-up">
           <a href="#contact" class="btn btn--primary">무료 상담 예약</a>
-          <a href="#services" class="btn btn--outline">진료 과목 보기</a>
+          <a href="#knowhow" class="btn btn--outline">시술 노하우 보기</a>
         </div>
         <div class="hero__contact fade-up">
           <a href="tel:02-517-4890" class="hero__phone">
@@ -96,13 +215,185 @@
     <div class="notice-band">
       <div class="container notice-band__inner">
         <i class="fa-solid fa-circle-info"></i>
-        <span>금요일 야간진료(~21:00) 운영 중 &nbsp;|&nbsp; 무료 1:1 상담 예약 환영</span>
+        <span>금요일 야간진료(~21:00) 운영 중 &nbsp;|&nbsp; 신사역 2번 출구 바로 앞 &nbsp;|&nbsp; 무료 1:1 상담 예약 환영</span>
         <a href="#contact" class="notice-band__link">지금 예약하기 →</a>
       </div>
     </div>
 
     <!-- ==============================
-         SERVICES SECTION
+         KNOWHOW SECTION — 9 Expertise Cards
+    ================================ -->
+    <section class="section knowhow" id="knowhow">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-badge">헤어라인교정술 노하우</p>
+          <h2 class="section-title">모앤라인의 9가지 핵심 노하우</h2>
+          <p class="section-desc">
+            수천 건의 임상 경험을 바탕으로 완성한 모앤라인만의 헤어라인교정 기술입니다
+          </p>
+        </div>
+
+        <div class="knowhow__grid">
+
+          <article class="knowhow__card reveal" id="knowhow-1">
+            <div class="knowhow__card-num">01</div>
+            <div class="knowhow__card-icon">
+              <i class="fa-solid fa-scissors"></i>
+            </div>
+            <h3 class="knowhow__card-title">무삭발 비절개 대량 이식</h3>
+            <p class="knowhow__card-tagline">리얼 무삭발! 3000모 대량 이식도 비절개로!</p>
+            <p class="knowhow__card-desc">
+              3000모 정도의 대량이식도 1.5~2시간 내에 가능합니다. partial precutting 테크닉을 활용하여 모낭 주위 줄기세포와 성장인자를 포함한 채취로 생착률을 극대화합니다.
+            </p>
+            <ul class="knowhow__card-points">
+              <li><i class="fa-solid fa-check-circle"></i> 3000모 이상 무삭발 비절개 가능</li>
+              <li><i class="fa-solid fa-check-circle"></i> Partial precutting 테크닉</li>
+              <li><i class="fa-solid fa-check-circle"></i> 줄기세포·성장인자 포함 채취</li>
+            </ul>
+          </article>
+
+          <article class="knowhow__card reveal" id="knowhow-2">
+            <div class="knowhow__card-num">02</div>
+            <div class="knowhow__card-icon">
+              <i class="fa-solid fa-band-aid"></i>
+            </div>
+            <h3 class="knowhow__card-title">흉터 최소화 두피절개술</h3>
+            <p class="knowhow__card-tagline">흉터와 통증 때문에 절개 망설인다면</p>
+            <p class="knowhow__card-desc">
+              두피 탄성, 피부두께, 흉터 요인을 파악하여 해부학적 위치와 절개 길이를 조절합니다. 흡수성 봉합사 사용과 성형외과전문의의 흉터피부재건술 노하우로 흉터를 최소화합니다.
+            </p>
+            <ul class="knowhow__card-points">
+              <li><i class="fa-solid fa-check-circle"></i> 개인별 두피 특성 분석</li>
+              <li><i class="fa-solid fa-check-circle"></i> 흡수성 봉합사 사용</li>
+              <li><i class="fa-solid fa-check-circle"></i> 성형외과 흉터재건술 노하우</li>
+            </ul>
+          </article>
+
+          <article class="knowhow__card reveal" id="knowhow-3">
+            <div class="knowhow__card-num">03</div>
+            <div class="knowhow__card-icon">
+              <i class="fa-solid fa-palette"></i>
+            </div>
+            <h3 class="knowhow__card-title">잔머리부터 그라데이션 구현</h3>
+            <p class="knowhow__card-tagline">본래 헤어라인처럼 자연스러운 그라데이션</p>
+            <p class="knowhow__card-desc">
+              벨루스와 가는모를 굵기별로 세부적으로 배치하여 자연스러운 그라데이션을 구현합니다. 0.8mm~1mm 이하 팁으로 20~37도 각도를 정밀 조절합니다.
+            </p>
+            <ul class="knowhow__card-points">
+              <li><i class="fa-solid fa-check-circle"></i> 벨루스·가는모 굵기별 세부 배치</li>
+              <li><i class="fa-solid fa-check-circle"></i> 0.8~1mm 이하 정밀 팁 사용</li>
+              <li><i class="fa-solid fa-check-circle"></i> 20~37도 각도 정밀 조절</li>
+            </ul>
+          </article>
+
+          <article class="knowhow__card reveal" id="knowhow-4">
+            <div class="knowhow__card-num">04</div>
+            <div class="knowhow__card-icon">
+              <i class="fa-solid fa-drafting-compass"></i>
+            </div>
+            <h3 class="knowhow__card-title">자연스러운 헤어라인 슬릿 디자인</h3>
+            <p class="knowhow__card-tagline">자연스러운 디자인의 완성은 슬릿 디자인</p>
+            <p class="knowhow__card-desc">
+              개인별 이상적인 헤어라인을 반영한 슬릿 디자인으로 불규칙적인 자연스러운 라인을 구현합니다. 균일하지 않은 자연 헤어라인의 특성을 최대한 살립니다.
+            </p>
+            <ul class="knowhow__card-points">
+              <li><i class="fa-solid fa-check-circle"></i> 개인별 맞춤 슬릿 설계</li>
+              <li><i class="fa-solid fa-check-circle"></i> 불규칙한 자연 라인 구현</li>
+              <li><i class="fa-solid fa-check-circle"></i> 안면비례 고려 디자인</li>
+            </ul>
+          </article>
+
+          <article class="knowhow__card reveal" id="knowhow-5">
+            <div class="knowhow__card-num">05</div>
+            <div class="knowhow__card-icon">
+              <i class="fa-solid fa-rotate-left"></i>
+            </div>
+            <h3 class="knowhow__card-title">고난이도 재수술노하우</h3>
+            <p class="knowhow__card-tagline">어색해진 모양, 흉터, 떨어진 밀도 개선</p>
+            <p class="knowhow__card-desc">
+              잘못 이식된 부분 제거, 피부 흉터 최소화, 측면·구레나룻 재교정, 뒷머리 흉터 축소 등 까다로운 재수술도 성형외과전문의의 노하우로 개선합니다.
+            </p>
+            <ul class="knowhow__card-points">
+              <li><i class="fa-solid fa-check-circle"></i> 잘못 이식 부분 선택적 제거</li>
+              <li><i class="fa-solid fa-check-circle"></i> 측면·구레나룻 재교정</li>
+              <li><i class="fa-solid fa-check-circle"></i> 뒷머리 절개 흉터 개선</li>
+            </ul>
+          </article>
+
+          <article class="knowhow__card reveal" id="knowhow-6">
+            <div class="knowhow__card-num">06</div>
+            <div class="knowhow__card-icon">
+              <i class="fa-solid fa-seedling"></i>
+            </div>
+            <h3 class="knowhow__card-title">고생착 모낭이식술로 안정적 밀도</h3>
+            <p class="knowhow__card-tagline">안정적인 모발 밀도를 장기간 유지</p>
+            <p class="knowhow__card-desc">
+              자연스러운 굵기 그라데이션을 유지하면서 안정적 밀도를 달성합니다. 출혈·감염 예방과 흉터 조직 복원까지 체계적인 프로세스로 고생착률을 실현합니다.
+            </p>
+            <ul class="knowhow__card-points">
+              <li><i class="fa-solid fa-check-circle"></i> 장기 밀도 안정화</li>
+              <li><i class="fa-solid fa-check-circle"></i> 출혈·감염 예방 시스템</li>
+              <li><i class="fa-solid fa-check-circle"></i> 흉터 조직 복원 노하우</li>
+            </ul>
+          </article>
+
+          <article class="knowhow__card reveal" id="knowhow-7">
+            <div class="knowhow__card-num">07</div>
+            <div class="knowhow__card-icon">
+              <i class="fa-solid fa-microscope"></i>
+            </div>
+            <h3 class="knowhow__card-title">업그레이드된 모낭 이식술 노하우</h3>
+            <p class="knowhow__card-tagline">Dual Slit 방식으로 모발 손상 최소화</p>
+            <p class="knowhow__card-desc">
+              Dual Slit 방식을 통해 모발 손상을 최소화합니다. 깊이와 각도를 정밀 조절하여 이식된 모낭이 최적의 환경에서 자랄 수 있도록 합니다.
+            </p>
+            <ul class="knowhow__card-points">
+              <li><i class="fa-solid fa-check-circle"></i> Dual Slit 이식 방식</li>
+              <li><i class="fa-solid fa-check-circle"></i> 깊이·각도 정밀 제어</li>
+              <li><i class="fa-solid fa-check-circle"></i> 모낭 생존율 극대화</li>
+            </ul>
+          </article>
+
+          <article class="knowhow__card reveal" id="knowhow-8">
+            <div class="knowhow__card-num">08</div>
+            <div class="knowhow__card-icon">
+              <i class="fa-solid fa-user-doctor"></i>
+            </div>
+            <h3 class="knowhow__card-title">슬릿, 채취, 이식 원장 진행</h3>
+            <p class="knowhow__card-tagline">집도의가 전 과정을 직접 진행합니다</p>
+            <p class="knowhow__card-desc">
+              경험 풍부한 집도의가 모낭 선별, 슬릿 디자인, 이식까지 전 과정을 직접 진행합니다. 핵심 단계를 비전문 인력에게 맡기지 않는 것이 모앤라인의 원칙입니다.
+            </p>
+            <ul class="knowhow__card-points">
+              <li><i class="fa-solid fa-check-circle"></i> 원장 직접 슬릿 디자인</li>
+              <li><i class="fa-solid fa-check-circle"></i> 원장 직접 모낭 채취</li>
+              <li><i class="fa-solid fa-check-circle"></i> 원장 직접 이식 진행</li>
+            </ul>
+          </article>
+
+          <article class="knowhow__card reveal" id="knowhow-9">
+            <div class="knowhow__card-num">09</div>
+            <div class="knowhow__card-icon">
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h3 class="knowhow__card-title">연예인의 노 쉐이빙 헤어라인교정</h3>
+            <p class="knowhow__card-tagline">기존 머리카락을 유지한 채 이식</p>
+            <p class="knowhow__card-desc">
+              기존 머리카락을 그대로 유지한 채 이식하므로 촬영 일정에 지장 없이 시술이 가능합니다. 2000모 이상의 무삭발 노 쉐이빙 이식도 가능합니다.
+            </p>
+            <ul class="knowhow__card-points">
+              <li><i class="fa-solid fa-check-circle"></i> 삭발 없이 2000모 이상 이식</li>
+              <li><i class="fa-solid fa-check-circle"></i> 당일 일상 복귀 가능</li>
+              <li><i class="fa-solid fa-check-circle"></i> 촬영 일정 영향 없음</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================
+         SERVICES SECTION (expanded)
     ================================ -->
     <section class="section services" id="services">
       <div class="container">
@@ -124,16 +415,14 @@
             </div>
             <h3 class="service-card__title">헤어라인교정술</h3>
             <p class="service-card__desc">
-              이마 라인을 자연스럽게 교정하여 얼굴 비율을 개선합니다.
-              개인 두상과 얼굴형에 맞는 맞춤 디자인으로 보다 아름다운
-              헤어라인을 만들어 드립니다.
+              여성·남성별 맞춤 교정. 안면윤곽 3D 분석을 통해 개인별 이상적인 헤어라인을 설계합니다. M자/넓은이마/재교정/흉터부위/구레나룻/미니교정 등 13가지 세분화 시술이 가능합니다.
             </p>
             <ul class="service-card__features">
-              <li><i class="fa-solid fa-check"></i> 맞춤형 헤어라인 디자인</li>
-              <li><i class="fa-solid fa-check"></i> 자연스러운 모발 방향 이식</li>
-              <li><i class="fa-solid fa-check"></i> 최소화된 흉터 및 빠른 회복</li>
+              <li><i class="fa-solid fa-check"></i> 3D 안면분석 맞춤 디자인</li>
+              <li><i class="fa-solid fa-check"></i> 비절개/절개 모낭채취 선택</li>
+              <li><i class="fa-solid fa-check"></i> 수술 전후 두피 적정화 케어</li>
             </ul>
-            <a href="#contact" class="service-card__link">상담 예약 →</a>
+            <a href="#treatments" class="service-card__link">13가지 시술 보기 →</a>
           </article>
 
           <!-- Card 2: 모발이식 -->
@@ -144,14 +433,12 @@
             </div>
             <h3 class="service-card__title">모발이식</h3>
             <p class="service-card__desc">
-              무삭발 비절개 방식으로 일상 복귀가 빠르고 자연스러운 결과를
-              제공합니다. 대량 이식이 가능하며 공여부 흉터를 최소화하는
-              최신 기법을 사용합니다.
+              남성탈모·여성탈모 맞춤 이식. 무삭발 비절개 FUE로 일상 복귀가 빠릅니다. 정수리·쌍가마·밀도보강까지 다양한 탈모 부위에 대응합니다. 3000모 이상 대량 이식도 가능합니다.
             </p>
             <ul class="service-card__features">
               <li><i class="fa-solid fa-check"></i> 무삭발·비절개 FUE 방식</li>
-              <li><i class="fa-solid fa-check"></i> 대량 이식 가능</li>
-              <li><i class="fa-solid fa-check"></i> 공여부 흉터 최소화</li>
+              <li><i class="fa-solid fa-check"></i> 대량 이식 (3000모+)</li>
+              <li><i class="fa-solid fa-check"></i> 고생착 모낭이식술</li>
             </ul>
             <a href="#contact" class="service-card__link">상담 예약 →</a>
           </article>
@@ -163,14 +450,12 @@
             </div>
             <h3 class="service-card__title">탈모치료</h3>
             <p class="service-card__desc">
-              남성형 탈모, 여성 탈모 등 다양한 탈모 유형에 맞춘
-              전문 치료 프로그램을 제공합니다. 정확한 진단을 바탕으로
-              최적의 치료 방향을 설계합니다.
+              비수술 탈모치료 프로그램. 헤어셀 자기장 치료(96.7% 개선율), MTS+모낭강화주사, 사이토카인 치료, Smart Lux LLLT, 두피 스케일링 등 다양한 방법으로 탈모를 치료합니다.
             </p>
             <ul class="service-card__features">
-              <li><i class="fa-solid fa-check"></i> 남성·여성 맞춤 치료</li>
-              <li><i class="fa-solid fa-check"></i> 정밀 두피 진단</li>
-              <li><i class="fa-solid fa-check"></i> 비수술 및 수술 병행 가능</li>
+              <li><i class="fa-solid fa-check"></i> 모낭세포 직접 자극 치료</li>
+              <li><i class="fa-solid fa-check"></i> 3~4개월 내 효과 확인</li>
+              <li><i class="fa-solid fa-check"></i> 96% 탈모진행 억제율</li>
             </ul>
             <a href="#contact" class="service-card__link">상담 예약 →</a>
           </article>
@@ -180,7 +465,7 @@
     </section>
 
     <!-- ==============================
-         WHY US / KEY NUMBERS
+         STATS BAND
     ================================ -->
     <section class="stats-band">
       <div class="container stats-band__grid">
@@ -197,71 +482,476 @@
           <span class="stat-item__label">환자 만족도</span>
         </div>
         <div class="stat-item reveal">
-          <span class="stat-item__number">0<span class="stat-item__unit">건</span></span>
-          <span class="stat-item__label">의료 분쟁 (안전 제일)</span>
+          <span class="stat-item__number">3,000<span class="stat-item__unit">모+</span></span>
+          <span class="stat-item__label">무삭발 대량이식 가능</span>
         </div>
       </div>
     </section>
 
     <!-- ==============================
-         DOCTOR / CLINIC SECTION
+         TREATMENTS — 13 Types
+    ================================ -->
+    <section class="section treatments" id="treatments">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-badge">모앤라인 헤어라인교정술</p>
+          <h2 class="section-title">13가지 헤어라인 시술 종류</h2>
+          <p class="section-desc">
+            다양한 고민에 맞춘 세분화된 헤어라인교정 시술을 제공합니다
+          </p>
+        </div>
+
+        <div class="treatments__grid">
+
+          <div class="treatment__card reveal">
+            <div class="treatment__card-icon"><i class="fa-solid fa-venus-mars"></i></div>
+            <h4 class="treatment__card-title">여성·남성 헤어라인 교정술의 차이</h4>
+            <p class="treatment__card-desc">여성은 라운드하고 부드러운 라인, 남성은 각진 M자 교정. 성별 특성에 맞춘 개별 디자인 접근.</p>
+          </div>
+
+          <div class="treatment__card reveal">
+            <div class="treatment__card-icon"><i class="fa-solid fa-cube"></i></div>
+            <h4 class="treatment__card-title">안면윤곽과 헤어라인 3D 분석 디자인</h4>
+            <p class="treatment__card-desc">3D 안면스캔과 황금비율 분석으로 얼굴 전체와 조화로운 헤어라인을 설계합니다.</p>
+          </div>
+
+          <div class="treatment__card reveal">
+            <div class="treatment__card-icon"><i class="fa-solid fa-syringe"></i></div>
+            <h4 class="treatment__card-title">비절개/절개 모낭채취</h4>
+            <p class="treatment__card-desc">두피 상태와 이식 모수에 따라 비절개(FUE) 또는 절개(FUT) 방식을 최적 선택.</p>
+          </div>
+
+          <div class="treatment__card reveal">
+            <div class="treatment__card-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+            <h4 class="treatment__card-title">수술 전후 두피 적정화 케어</h4>
+            <p class="treatment__card-desc">수술 전 두피 환경 최적화, 수술 후 EGF 재생 케어로 회복을 돕습니다.</p>
+          </div>
+
+          <div class="treatment__card reveal">
+            <div class="treatment__card-icon"><i class="fa-solid fa-m"></i></div>
+            <h4 class="treatment__card-title">M자, 어색한 헤어라인 교정</h4>
+            <p class="treatment__card-desc">M자형 후퇴 및 어색한 헤어라인을 자연스러운 곡선으로 부드럽게 교정.</p>
+          </div>
+
+          <div class="treatment__card reveal">
+            <div class="treatment__card-icon"><i class="fa-solid fa-arrows-up-to-line"></i></div>
+            <h4 class="treatment__card-title">넓은 이마 대량 모발이식</h4>
+            <p class="treatment__card-desc">넓은 이마 고민 해결을 위한 대량 모발이식. 3000모 이상도 한 번에 가능.</p>
+          </div>
+
+          <div class="treatment__card reveal">
+            <div class="treatment__card-icon"><i class="fa-solid fa-rotate"></i></div>
+            <h4 class="treatment__card-title">헤어라인 재교정</h4>
+            <p class="treatment__card-desc">타 기관에서 받은 부자연스러운 결과물을 자연스럽게 교정하는 고난이도 재수술.</p>
+          </div>
+
+          <div class="treatment__card reveal">
+            <div class="treatment__card-icon"><i class="fa-solid fa-eraser"></i></div>
+            <h4 class="treatment__card-title">제모·반영구 문신한 헤어라인 교정</h4>
+            <p class="treatment__card-desc">레이저 제모나 헤어라인 문신 부위에도 모발이식이 가능. 특수 기법 적용.</p>
+          </div>
+
+          <div class="treatment__card reveal">
+            <div class="treatment__card-icon"><i class="fa-solid fa-bandage"></i></div>
+            <h4 class="treatment__card-title">흉터 부위 모발이식</h4>
+            <p class="treatment__card-desc">화상, 외상, 수술로 인한 두피 흉터 부위에 모발을 이식하여 자연스럽게 개선.</p>
+          </div>
+
+          <div class="treatment__card reveal">
+            <div class="treatment__card-icon"><i class="fa-solid fa-arrows-left-right"></i></div>
+            <h4 class="treatment__card-title">구레나룻, 측면 헤어라인 교정</h4>
+            <p class="treatment__card-desc">측면 헤어라인과 구레나룻을 자연스럽게 교정. 예각 이식과 가는모 그라데이션 기법 적용.</p>
+          </div>
+
+          <div class="treatment__card reveal">
+            <div class="treatment__card-icon"><i class="fa-solid fa-minimize"></i></div>
+            <h4 class="treatment__card-title">미니 헤어라인교정</h4>
+            <p class="treatment__card-desc">소량 이식이 필요한 부분적 교정. 짧은 시술 시간, 빠른 회복으로 일상 복귀 용이.</p>
+          </div>
+
+          <div class="treatment__card reveal">
+            <div class="treatment__card-icon"><i class="fa-solid fa-circle-dot"></i></div>
+            <h4 class="treatment__card-title">정수리, 쌍가마, 밀도보강 모발이식</h4>
+            <p class="treatment__card-desc">정수리 탈모, 쌍가마, 밀도 부족 부위에 집중 이식하여 자연스러운 풍성함을 회복.</p>
+          </div>
+
+          <div class="treatment__card reveal">
+            <div class="treatment__card-icon"><i class="fa-solid fa-wind"></i></div>
+            <h4 class="treatment__card-title">노 쉐이빙 모낭이식술</h4>
+            <p class="treatment__card-desc">삭발 없이 현재 헤어스타일을 유지한 채 이식. 2000모 이상 무삭발 대량 이식 가능.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================
+         PROCESS — 7 Steps
+    ================================ -->
+    <section class="section process" id="process">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-badge">진료 전과정 미리보기</p>
+          <h2 class="section-title">수술 당일 진행 과정</h2>
+          <p class="section-desc">
+            모앤라인성형외과의 수술 과정을 미리 확인하여 편안하게 준비하세요
+          </p>
+        </div>
+
+        <div class="process__timeline">
+
+          <div class="process__step reveal">
+            <div class="process__step-num">1</div>
+            <div class="process__step-connector"></div>
+            <div class="process__step-content">
+              <div class="process__step-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+              <h3 class="process__step-title">두피와 헤어라인 진단과 상담</h3>
+              <p class="process__step-desc">두피진단기기와 3D 안면스캔으로 상태를 정밀 분석하고, 이식 모수와 디자인에 대해 상담합니다.</p>
+            </div>
+          </div>
+
+          <div class="process__step reveal">
+            <div class="process__step-num">2</div>
+            <div class="process__step-connector"></div>
+            <div class="process__step-content">
+              <div class="process__step-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+              <h3 class="process__step-title">헤어라인 디자인</h3>
+              <p class="process__step-desc">성형외과전문의가 안면미용 노하우로 개인별 맞춤 헤어라인을 직접 디자인합니다.</p>
+            </div>
+          </div>
+
+          <div class="process__step reveal">
+            <div class="process__step-num">3</div>
+            <div class="process__step-connector"></div>
+            <div class="process__step-content">
+              <div class="process__step-icon"><i class="fa-solid fa-bolt"></i></div>
+              <h3 class="process__step-title">수술 전 레이저 시술</h3>
+              <p class="process__step-desc">피부조직 재생 효과가 있는 레이저 시술 후 마취크림을 도포합니다. 약 10분 소요됩니다.</p>
+            </div>
+          </div>
+
+          <div class="process__step reveal">
+            <div class="process__step-num">4</div>
+            <div class="process__step-connector"></div>
+            <div class="process__step-content">
+              <div class="process__step-icon"><i class="fa-solid fa-scissors"></i></div>
+              <h3 class="process__step-title">마취 및 모낭 채취</h3>
+              <p class="process__step-desc">국소마취 후 모낭을 채취합니다. 비절개 3000모 기준 약 1.5시간 소요됩니다.</p>
+            </div>
+          </div>
+
+          <div class="process__step reveal">
+            <div class="process__step-num">5</div>
+            <div class="process__step-connector"></div>
+            <div class="process__step-content">
+              <div class="process__step-icon"><i class="fa-solid fa-microscope"></i></div>
+              <h3 class="process__step-title">현미경 모낭 분리</h3>
+              <p class="process__step-desc">숙련된 전문 인력이 빠르게 모낭을 분리하고, 특수 보존 용액에 담아 생존율을 유지합니다.</p>
+            </div>
+          </div>
+
+          <div class="process__step reveal">
+            <div class="process__step-num">6</div>
+            <div class="process__step-connector"></div>
+            <div class="process__step-content">
+              <div class="process__step-icon"><i class="fa-solid fa-syringe"></i></div>
+              <h3 class="process__step-title">슬릿 디자인과 이식</h3>
+              <p class="process__step-desc">정교한 슬릿과 포셉 테크닉으로 모발 굵기별로 배치하여 이식합니다. 원장이 직접 진행합니다.</p>
+            </div>
+          </div>
+
+          <div class="process__step reveal">
+            <div class="process__step-num">7</div>
+            <div class="process__step-content">
+              <div class="process__step-icon"><i class="fa-solid fa-heart-circle-plus"></i></div>
+              <h3 class="process__step-title">수술 후 케어</h3>
+              <p class="process__step-desc">EGF 젤 도포와 당일 샴푸 방법 안내, 홈케어 제품 제공. 상세 사후 케어 가이드를 드립니다.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================
+         DOCTOR SECTION — 3 Doctors
     ================================ -->
     <section class="section doctor" id="doctor">
-      <div class="container doctor__inner">
-
-        <div class="doctor__photo-wrap reveal">
-          <div class="doctor__photo-placeholder" aria-label="대표원장 이병권 사진">
-            <i class="fa-solid fa-user-doctor"></i>
-            <span>대표원장 이병권</span>
-          </div>
-        </div>
-
-        <div class="doctor__info reveal">
+      <div class="container">
+        <div class="section-header reveal">
           <p class="section-badge">의료진 소개</p>
-          <h2 class="section-title section-title--left">대표원장 이병권</h2>
-
-          <div class="doctor__credentials">
-            <div class="credential">
-              <i class="fa-solid fa-graduation-cap"></i>
-              <div>
-                <strong>학력</strong>
-                <p>의학 전문 과정 수료</p>
-              </div>
-            </div>
-            <div class="credential">
-              <i class="fa-solid fa-hospital"></i>
-              <div>
-                <strong>전문 분야</strong>
-                <p>헤어라인교정술, 모발이식, 탈모치료</p>
-              </div>
-            </div>
-            <div class="credential">
-              <i class="fa-solid fa-award"></i>
-              <div>
-                <strong>주요 경력</strong>
-                <p>15년 이상 모발 이식 전문 임상 경험</p>
-              </div>
-            </div>
-          </div>
-
-          <blockquote class="doctor__quote">
-            "수술 결과가 자연스러워야 진짜 성공한 시술입니다.<br />
-            모앤라인은 환자 한 분 한 분의 고유한 아름다움을<br />
-            최대한 살리는 것을 최우선으로 생각합니다."
-          </blockquote>
-
-          <div class="doctor__philosophy">
-            <h3>병원 철학</h3>
-            <p>
-              모앤라인성형외과는 최신 의료 기술과 세심한 진료를 바탕으로
-              환자 중심의 의료 서비스를 제공합니다. 무삭발·비절개 기법으로
-              일상 복귀를 앞당기고, 흉터 없는 자연스러운 결과를 추구합니다.
-            </p>
-          </div>
-
-          <a href="#contact" class="btn btn--primary">원장 상담 예약</a>
+          <h2 class="section-title">성형외과전문의 의료진</h2>
+          <p class="section-desc">
+            모든 시술은 대한성형외과학회 인정 성형외과전문의가 직접 집도합니다
+          </p>
         </div>
 
+        <div class="doctors__grid">
+
+          <!-- 대표원장 이병권 -->
+          <div class="doctor-card doctor-card--featured reveal">
+            <div class="doctor-card__photo-wrap">
+              <div class="doctor__photo-placeholder" aria-label="대표원장 이병권 사진">
+                <i class="fa-solid fa-user-doctor"></i>
+                <span>대표원장 이병권</span>
+              </div>
+            </div>
+            <div class="doctor-card__info">
+              <p class="doctor-card__role">대표원장 · 성형외과전문의</p>
+              <h3 class="doctor-card__name">이병권</h3>
+              <ul class="doctor-card__credentials">
+                <li><i class="fa-solid fa-check"></i> 대구가톨릭대학교병원 성형외과 외래교수</li>
+                <li><i class="fa-solid fa-check"></i> 동경대학교 의학부 성형외과 연수</li>
+                <li><i class="fa-solid fa-check"></i> 대한성형외과학회(KSPRS) 정회원</li>
+                <li><i class="fa-solid fa-check"></i> 대한미용성형외과학회(KSAPS) 정회원</li>
+                <li><i class="fa-solid fa-check"></i> 대한모발이식학회(KSHRS) 정회원</li>
+                <li><i class="fa-solid fa-check"></i> 국제모발이식학회(ISHRS) 정회원</li>
+                <li><i class="fa-solid fa-check"></i> 아시아모발이식학회 정회원</li>
+                <li><i class="fa-solid fa-check"></i> 대한미세수술학회 정회원</li>
+              </ul>
+              <blockquote class="doctor-card__quote">
+                "수천 례의 헤어라인교정술 경험과 대학병원 흉터피부복원술, 고난이도 눈성형술 경력을 바탕으로 얼굴성형 디자인과 성형수술 노하우를 헤어라인교정술에 접목합니다."
+              </blockquote>
+            </div>
+          </div>
+
+          <!-- 홍석원 원장 -->
+          <div class="doctor-card reveal">
+            <div class="doctor-card__photo-wrap">
+              <div class="doctor__photo-placeholder" aria-label="홍석원 원장 사진">
+                <i class="fa-solid fa-user-doctor"></i>
+                <span>원장 홍석원</span>
+              </div>
+            </div>
+            <div class="doctor-card__info">
+              <p class="doctor-card__role">원장 · 성형외과전문의</p>
+              <h3 class="doctor-card__name">홍석원</h3>
+              <ul class="doctor-card__credentials">
+                <li><i class="fa-solid fa-check"></i> 순천향대학교병원 성형외과 외래교수</li>
+                <li><i class="fa-solid fa-check"></i> 국군수도병원 성형외과 과장 역임</li>
+                <li><i class="fa-solid fa-check"></i> 대한성형외과학회 전문의</li>
+                <li><i class="fa-solid fa-check"></i> 대한모발이식학회(KSHRS) 정회원</li>
+                <li><i class="fa-solid fa-check"></i> 국제모발이식학회(ISHRS) 정회원</li>
+                <li><i class="fa-solid fa-check"></i> 아시아모발이식학회 정회원</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 김세훈 원장 -->
+          <div class="doctor-card reveal">
+            <div class="doctor-card__photo-wrap">
+              <div class="doctor__photo-placeholder" aria-label="김세훈 원장 사진">
+                <i class="fa-solid fa-user-doctor"></i>
+                <span>원장 김세훈</span>
+              </div>
+            </div>
+            <div class="doctor-card__info">
+              <p class="doctor-card__role">원장 · 성형외과전문의</p>
+              <h3 class="doctor-card__name">김세훈</h3>
+              <ul class="doctor-card__credentials">
+                <li><i class="fa-solid fa-check"></i> 대한성형외과학회(KSPRS) 정회원</li>
+                <li><i class="fa-solid fa-check"></i> 대한모발이식학회(KSHRS) 정회원</li>
+                <li><i class="fa-solid fa-check"></i> 국제모발이식학회(ISHRS) 정회원</li>
+                <li><i class="fa-solid fa-check"></i> 아시아모발이식학회 정회원</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="doctor__cta reveal">
+          <a href="#contact" class="btn btn--primary">원장 상담 예약하기</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==============================
+         CERTIFICATIONS / 학회 인증
+    ================================ -->
+    <section class="section certifications" id="certifications">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-badge">학회 인증</p>
+          <h2 class="section-title">공인된 전문성과 신뢰</h2>
+          <p class="section-desc">국내외 권위 있는 학회에서 인정받은 전문 의료진이 진료합니다</p>
+        </div>
+
+        <div class="certifications__grid reveal">
+
+          <div class="cert__item">
+            <div class="cert__icon">
+              <i class="fa-solid fa-certificate"></i>
+            </div>
+            <h4 class="cert__name">대한성형외과학회</h4>
+            <p class="cert__abbr">KSPRS</p>
+            <p class="cert__desc">Korean Society of Plastic and Reconstructive Surgeons</p>
+          </div>
+
+          <div class="cert__item">
+            <div class="cert__icon">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <h4 class="cert__name">대한미용성형외과학회</h4>
+            <p class="cert__abbr">KSAPS</p>
+            <p class="cert__desc">Korean Society of Aesthetic Plastic Surgeons</p>
+          </div>
+
+          <div class="cert__item">
+            <div class="cert__icon">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <h4 class="cert__name">대한성형외과의사회</h4>
+            <p class="cert__abbr">KSPRS 의사회</p>
+            <p class="cert__desc">Korean Plastic Surgeons Association</p>
+          </div>
+
+          <div class="cert__item">
+            <div class="cert__icon">
+              <i class="fa-solid fa-leaf"></i>
+            </div>
+            <h4 class="cert__name">대한모발이식학회</h4>
+            <p class="cert__abbr">KSHRS</p>
+            <p class="cert__desc">Korean Society of Hair Restoration Surgery</p>
+          </div>
+
+          <div class="cert__item">
+            <div class="cert__icon">
+              <i class="fa-solid fa-globe"></i>
+            </div>
+            <h4 class="cert__name">국제모발이식학회</h4>
+            <p class="cert__abbr">ISHRS</p>
+            <p class="cert__desc">International Society of Hair Restoration Surgery</p>
+          </div>
+
+          <div class="cert__item">
+            <div class="cert__icon">
+              <i class="fa-solid fa-earth-asia"></i>
+            </div>
+            <h4 class="cert__name">아시아모발이식학회</h4>
+            <p class="cert__abbr">AAHRS</p>
+            <p class="cert__desc">Asian Association of Hair Restoration Surgeons</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================
+         FAQ SECTION — 9 Items Accordion
+    ================================ -->
+    <section class="section faq" id="faq">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-badge">헤어라인교정술 궁금증</p>
+          <h2 class="section-title">자주 묻는 질문</h2>
+          <p class="section-desc">
+            헤어라인교정술에 대한 흔한 궁금증을 모앤라인이 명쾌하게 답변드립니다
+          </p>
+        </div>
+
+        <div class="faq__list reveal">
+
+          <div class="faq__item" id="faq-1">
+            <button class="faq__question" aria-expanded="false">
+              <span class="faq__q-num">Q01</span>
+              <span class="faq__q-text">무삭발 비절개로는 대량이식 안돼?</span>
+              <i class="fa-solid fa-chevron-down faq__chevron"></i>
+            </button>
+            <div class="faq__answer">
+              <p>3000모 이상의 무삭발 비절개 대량이식이 가능합니다. 모앤라인의 partial precutting 테크닉을 활용하면 1.5~2시간 내에 채취가 완료됩니다. 기존에 비절개 방식으로는 대량이식이 어렵다는 인식이 있었지만, 숙련된 테크닉과 특수 장비를 통해 가능해졌습니다.</p>
+            </div>
+          </div>
+
+          <div class="faq__item" id="faq-2">
+            <button class="faq__question" aria-expanded="false">
+              <span class="faq__q-num">Q02</span>
+              <span class="faq__q-text">절개 채취 후 두드러진 뒷머리 흉터</span>
+              <i class="fa-solid fa-chevron-down faq__chevron"></i>
+            </button>
+            <div class="faq__answer">
+              <p>두피 탄성도와 피부 두께에 따라 절개 길이를 조절해야 흉터를 최소화할 수 있습니다. 모앤라인은 성형외과전문의의 이중봉합 방식으로 흉터를 최소화하며, 기존의 두드러진 흉터도 흉터피부재건술로 개선 가능합니다.</p>
+            </div>
+          </div>
+
+          <div class="faq__item" id="faq-3">
+            <button class="faq__question" aria-expanded="false">
+              <span class="faq__q-num">Q03</span>
+              <span class="faq__q-text">맨앞에서 굵은 머리가 나오는 이유</span>
+              <i class="fa-solid fa-chevron-down faq__chevron"></i>
+            </button>
+            <div class="faq__answer">
+              <p>가는모 선별 채취 노하우가 부족한 경우 발생합니다. 자연 헤어라인에서는 맨 앞쪽에 벨루스(솜털)와 가는 단일모가 배치됩니다. 이를 구분하여 이식하지 않으면 굵은 모발이 앞줄에 나오게 됩니다. 모앤라인은 굵기별 세부 분류 후 이식합니다.</p>
+            </div>
+          </div>
+
+          <div class="faq__item" id="faq-4">
+            <button class="faq__question" aria-expanded="false">
+              <span class="faq__q-num">Q04</span>
+              <span class="faq__q-text">잔머리 실종, 이식부위 흉터 생긴 이유</span>
+              <i class="fa-solid fa-chevron-down faq__chevron"></i>
+            </button>
+            <div class="faq__answer">
+              <p>이식 깊이와 각도가 부적절할 때 발생합니다. 피부 상태에 따라 세심한 슬릿 조절과 이식 각도 설정이 필요합니다. 너무 얕게 이식하면 모낭이 빠지고, 너무 깊으면 흉터 조직이 생기거나 기존 모발을 손상시킬 수 있습니다.</p>
+            </div>
+          </div>
+
+          <div class="faq__item" id="faq-5">
+            <button class="faq__question" aria-expanded="false">
+              <span class="faq__q-num">Q05</span>
+              <span class="faq__q-text">새로 난 머리 밀도가 떨어진 이유</span>
+              <i class="fa-solid fa-chevron-down faq__chevron"></i>
+            </button>
+            <div class="faq__answer">
+              <p>모낭 채취 시 손상이나 이식 시 생착률 저하가 원인일 수 있습니다. 채취한 모낭의 보존 상태, 이식 소요 시간, 이식 기법 모두가 생착률에 영향을 미칩니다. 모앤라인의 고생착 모낭이식술로 안정적인 밀도를 유지합니다.</p>
+            </div>
+          </div>
+
+          <div class="faq__item" id="faq-6">
+            <button class="faq__question" aria-expanded="false">
+              <span class="faq__q-num">Q06</span>
+              <span class="faq__q-text">이마가 여전히 넓거나 어색해진 경우</span>
+              <i class="fa-solid fa-chevron-down faq__chevron"></i>
+            </button>
+            <div class="faq__answer">
+              <p>얼굴 전체 비례를 고려하지 않은 디자인이 원인입니다. 헤어라인 교정은 단순히 이마를 좁히는 것이 아니라 안면 전체의 황금비율을 고려해야 합니다. 모앤라인의 3D 안면윤곽 분석으로 조화로운 헤어라인을 설계합니다.</p>
+            </div>
+          </div>
+
+          <div class="faq__item" id="faq-7">
+            <button class="faq__question" aria-expanded="false">
+              <span class="faq__q-num">Q07</span>
+              <span class="faq__q-text">측면, 구레나룻이 어색한 경우</span>
+              <i class="fa-solid fa-chevron-down faq__chevron"></i>
+            </button>
+            <div class="faq__answer">
+              <p>측면 헤어라인의 모발 각도와 방향이 자연스럽지 않을 때 발생합니다. 측면 헤어라인은 아래 방향으로의 예각 이식과 가는모 그라데이션이 반드시 필요합니다. 이를 제대로 구현하지 못하면 측면이 부자연스럽게 보입니다.</p>
+            </div>
+          </div>
+
+          <div class="faq__item" id="faq-8">
+            <button class="faq__question" aria-expanded="false">
+              <span class="faq__q-num">Q08</span>
+              <span class="faq__q-text">수술 후 모수가 달라진 이유</span>
+              <i class="fa-solid fa-chevron-down faq__chevron"></i>
+            </button>
+            <div class="faq__answer">
+              <p>채취 과정에서의 모낭 손상, 분리 시 손상, 이식 시 팝핑(이미 이식된 모낭이 밀려 나오는 현상)으로 인한 손실이 생길 수 있습니다. 모앤라인은 이식 단계별 손실을 최소화하여 처음 계획한 모수가 최대한 유지되도록 합니다.</p>
+            </div>
+          </div>
+
+          <div class="faq__item" id="faq-9">
+            <button class="faq__question" aria-expanded="false">
+              <span class="faq__q-num">Q09</span>
+              <span class="faq__q-text">수술 후 신경이상증세를 겪은 경우</span>
+              <i class="fa-solid fa-chevron-down faq__chevron"></i>
+            </button>
+            <div class="faq__answer">
+              <p>절개 시 너무 깊은 박리가 원인입니다. 두피 내 신경은 모상건막 아래층에 위치하므로, 모상건막보다 위층을 따라 채취해야 신경 손상을 방지할 수 있습니다. 모앤라인은 해부학적 지식을 바탕으로 안전한 채취를 실시합니다.</p>
+            </div>
+          </div>
+
+        </div>
       </div>
     </section>
 
@@ -271,7 +961,7 @@
     <section class="section gallery" id="gallery">
       <div class="container">
         <div class="section-header reveal">
-          <p class="section-badge">시술 사례</p>
+          <p class="section-badge">수술사례 / 고객후기</p>
           <h2 class="section-title">Before &amp; After</h2>
           <p class="section-desc">
             실제 환자 사례를 통해 모앤라인성형외과의 시술 결과를 확인하세요
@@ -303,7 +993,7 @@
                 </div>
               </div>
             </div>
-            <p class="gallery__caption">헤어라인교정술 — 여성 사례 1</p>
+            <p class="gallery__caption">헤어라인교정술 — 여성 넓은이마 교정</p>
           </div>
 
           <div class="gallery__item reveal" data-category="transplant">
@@ -323,7 +1013,7 @@
                 </div>
               </div>
             </div>
-            <p class="gallery__caption">모발이식 — 남성 M자 탈모 사례</p>
+            <p class="gallery__caption">모발이식 — 남성 M자 탈모 교정</p>
           </div>
 
           <div class="gallery__item reveal" data-category="alopecia">
@@ -343,7 +1033,7 @@
                 </div>
               </div>
             </div>
-            <p class="gallery__caption">탈모치료 — 정수리 탈모 사례</p>
+            <p class="gallery__caption">탈모치료 — 정수리 탈모 개선</p>
           </div>
 
           <div class="gallery__item reveal" data-category="hairline">
@@ -363,7 +1053,7 @@
                 </div>
               </div>
             </div>
-            <p class="gallery__caption">헤어라인교정술 — 남성 사례 2</p>
+            <p class="gallery__caption">헤어라인교정술 — 남성 M자 교정</p>
           </div>
 
           <div class="gallery__item reveal" data-category="transplant">
@@ -415,7 +1105,7 @@
     </section>
 
     <!-- ==============================
-         LOCATION SECTION
+         LOCATION SECTION (Updated)
     ================================ -->
     <section class="section location" id="location">
       <div class="container">
@@ -431,7 +1121,7 @@
             <div class="map-placeholder">
               <i class="fa-solid fa-map-location-dot"></i>
               <p>지도 로딩 중</p>
-              <p class="map-placeholder__addr">서울특별시 강남구 도산대로 104<br />퍼스트에비뉴 10층, 13층</p>
+              <p class="map-placeholder__addr">서울특별시 강남구 도산대로 104<br />퍼스트에비뉴 10층(수술센터), 13층(접수/상담/치료)</p>
               <a
                 href="https://map.naver.com/v5/search/서울특별시 강남구 도산대로 104"
                 target="_blank"
@@ -450,7 +1140,8 @@
               <i class="fa-solid fa-location-dot info-block__icon"></i>
               <div>
                 <h3>주소</h3>
-                <p>서울특별시 강남구 도산대로 104<br />퍼스트에비뉴 10층, 13층 (논현동 1-1)</p>
+                <p>서울특별시 강남구 도산대로 104<br />퍼스트에비뉴 (논현동 1-1)</p>
+                <p class="info-block__sub">13층 접수/상담/치료센터 · 10층 수술센터</p>
               </div>
             </div>
 
@@ -493,9 +1184,25 @@
             <div class="info-block">
               <i class="fa-solid fa-train-subway info-block__icon"></i>
               <div>
-                <h3>대중교통</h3>
-                <p>지하철 7호선 <strong>학동역</strong> 4번 출구 도보 5분</p>
-                <p class="info-block__sub">버스 146, 362, 463번 <strong>논현역</strong> 하차</p>
+                <h3>지하철</h3>
+                <p>3호선 <strong>신사역 2번 출구</strong> 바로 앞 (약 5m)</p>
+              </div>
+            </div>
+
+            <div class="info-block">
+              <i class="fa-solid fa-bus info-block__icon"></i>
+              <div>
+                <h3>버스</h3>
+                <p>지선 4417, 4424</p>
+                <p class="info-block__sub">간선 141, 145, 148, 240 등 논현동 하차</p>
+              </div>
+            </div>
+
+            <div class="info-block">
+              <i class="fa-solid fa-car info-block__icon"></i>
+              <div>
+                <h3>주차 / 발렛</h3>
+                <p>건물 입구에서 발렛파킹 이용 가능</p>
               </div>
             </div>
 
@@ -507,12 +1214,12 @@
     </section>
 
     <!-- ==============================
-         CONTACT / CONSULTATION FORM
+         CONTACT / CONSULTATION FORM (Expanded)
     ================================ -->
     <section class="section contact" id="contact">
       <div class="container">
         <div class="section-header reveal">
-          <p class="section-badge">상담 예약</p>
+          <p class="section-badge">온라인상담 · 온라인예약</p>
           <h2 class="section-title">무료 상담 신청</h2>
           <p class="section-desc">
             전문 상담 팀이 빠르게 연락드립니다.<br />
@@ -523,49 +1230,108 @@
         <div class="contact__inner">
 
           <form class="contact-form reveal" id="contactForm" novalidate>
-            <div class="form-group">
-              <label for="name">이름 <span class="required">*</span></label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                placeholder="이름을 입력해 주세요"
-                required
-                autocomplete="name"
-              />
-              <span class="form-error" id="nameError">이름을 입력해 주세요.</span>
-            </div>
 
-            <div class="form-group">
-              <label for="phone">연락처 <span class="required">*</span></label>
-              <input
-                type="tel"
-                id="phone"
-                name="phone"
-                placeholder="010-0000-0000"
-                required
-                autocomplete="tel"
-              />
-              <span class="form-error" id="phoneError">올바른 연락처를 입력해 주세요.</span>
-            </div>
-
-            <div class="form-group">
-              <label for="service">관심 시술 <span class="required">*</span></label>
-              <div class="select-wrapper">
-                <select id="service" name="service" required>
-                  <option value="" disabled selected>관심 시술을 선택해 주세요</option>
-                  <option value="hairline">헤어라인교정술</option>
-                  <option value="transplant">모발이식</option>
-                  <option value="alopecia">탈모치료</option>
-                  <option value="consultation">일반 상담 (미정)</option>
-                </select>
-                <i class="fa-solid fa-chevron-down select-wrapper__icon"></i>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">이름 <span class="required">*</span></label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="이름을 입력해 주세요"
+                  required
+                  autocomplete="name"
+                />
+                <span class="form-error" id="nameError">이름을 입력해 주세요.</span>
               </div>
-              <span class="form-error" id="serviceError">관심 시술을 선택해 주세요.</span>
+
+              <div class="form-group">
+                <label for="phone">연락처 <span class="required">*</span></label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="010-0000-0000"
+                  required
+                  autocomplete="tel"
+                />
+                <span class="form-error" id="phoneError">올바른 연락처를 입력해 주세요.</span>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="service">관심 시술 <span class="required">*</span></label>
+                <div class="select-wrapper">
+                  <select id="service" name="service" required>
+                    <option value="" disabled selected>관심 시술을 선택해 주세요</option>
+                    <option value="hairline">헤어라인교정술</option>
+                    <option value="transplant">모발이식</option>
+                    <option value="alopecia">탈모치료</option>
+                    <option value="revision">재교정 수술</option>
+                    <option value="noshaving">노 쉐이빙 이식</option>
+                    <option value="consultation">일반 상담 (미정)</option>
+                  </select>
+                  <i class="fa-solid fa-chevron-down select-wrapper__icon"></i>
+                </div>
+                <span class="form-error" id="serviceError">관심 시술을 선택해 주세요.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="region">거주지역</label>
+                <div class="select-wrapper">
+                  <select id="region" name="region">
+                    <option value="" disabled selected>지역을 선택해 주세요</option>
+                    <option>서울</option>
+                    <option>경기/인천</option>
+                    <option>강원</option>
+                    <option>충청/대전</option>
+                    <option>전라/광주</option>
+                    <option>경상/부산/대구</option>
+                    <option>제주</option>
+                    <option>해외</option>
+                  </select>
+                  <i class="fa-solid fa-chevron-down select-wrapper__icon"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label>성별</label>
+                <div class="radio-group">
+                  <label class="radio-label">
+                    <input type="radio" name="gender" value="female" />
+                    <span class="radio-custom"></span>
+                    여성
+                  </label>
+                  <label class="radio-label">
+                    <input type="radio" name="gender" value="male" />
+                    <span class="radio-custom"></span>
+                    남성
+                  </label>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="age">연령</label>
+                <div class="select-wrapper">
+                  <select id="age" name="age">
+                    <option value="" disabled selected>연령대를 선택해 주세요</option>
+                    <option>10대</option>
+                    <option>20대</option>
+                    <option>30대</option>
+                    <option>40대</option>
+                    <option>50대</option>
+                    <option>60대 이상</option>
+                  </select>
+                  <i class="fa-solid fa-chevron-down select-wrapper__icon"></i>
+                </div>
+              </div>
             </div>
 
             <div class="form-group">
-              <label for="message">문의 내용</label>
+              <label for="message">상담 내용</label>
               <textarea
                 id="message"
                 name="message"
@@ -579,11 +1345,19 @@
                 <input type="checkbox" id="privacy" name="privacy" required />
                 <span class="checkbox-custom"></span>
                 <span>
-                  <a href="#" class="link">개인정보 수집·이용</a>에 동의합니다
+                  <a href="#" class="link">개인정보취급방침</a> 및 개인정보 수집·이용에 동의합니다
                   <span class="required">*</span>
                 </span>
               </label>
               <span class="form-error" id="privacyError">개인정보 수집·이용에 동의해 주세요.</span>
+            </div>
+
+            <div class="form-group form-group--checkbox">
+              <label class="checkbox-label">
+                <input type="checkbox" id="smsAgree" name="smsAgree" />
+                <span class="checkbox-custom"></span>
+                <span>SMS 수신에 동의합니다 (선택)</span>
+              </label>
             </div>
 
             <button type="submit" class="btn btn--primary btn--full">
@@ -605,7 +1379,7 @@
 
             <div class="contact-info-card">
               <h3>카카오톡 상담</h3>
-              <a href="#" class="contact-info-card__kakao">
+              <a href="http://pf.kakao.com/_gxoDDT" target="_blank" rel="noopener noreferrer" class="contact-info-card__kakao">
                 <i class="fa-solid fa-comment"></i>
                 카카오톡 채널 바로가기
               </a>
@@ -632,6 +1406,11 @@
                 </li>
               </ol>
             </div>
+
+            <div class="contact-info-card">
+              <h3>수술 고객 케어와 보증제</h3>
+              <p class="contact-info-card__care-text">모앤라인은 수술 후 전담 케어 담당자를 배정하여 회복 과정을 함께 합니다. 약정된 생착률 미달 시 재시술 보증제를 운영합니다.</p>
+            </div>
           </div>
 
         </div>
@@ -641,7 +1420,7 @@
   </main>
 
   <!-- ==============================
-       FOOTER
+       FOOTER (Updated with real links)
   ================================ -->
   <footer class="footer">
     <div class="container footer__inner">
@@ -650,18 +1429,18 @@
         <a href="#hero" class="footer__logo">
           <span class="logo-main">모앤라인</span><span class="logo-sub">성형외과</span>
         </a>
-        <p class="footer__tagline">자연스러운 헤어라인, 모앤라인</p>
+        <p class="footer__tagline">헤어라인교정술에 집중해온 모앤라인</p>
         <div class="footer__sns">
-          <a href="#" class="sns-link" aria-label="유튜브" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.youtube.com/@moandlineps" class="sns-link" aria-label="유튜브" target="_blank" rel="noopener noreferrer">
             <i class="fa-brands fa-youtube"></i>
           </a>
-          <a href="#" class="sns-link" aria-label="네이버 블로그" target="_blank" rel="noopener noreferrer">
+          <a href="https://blog.naver.com/moandlineps" class="sns-link" aria-label="네이버 블로그" target="_blank" rel="noopener noreferrer">
             <i class="fa-solid fa-n"></i>
           </a>
-          <a href="#" class="sns-link" aria-label="인스타그램" target="_blank" rel="noopener noreferrer">
+          <a href="https://instagram.com/moandlineps" class="sns-link" aria-label="인스타그램" target="_blank" rel="noopener noreferrer">
             <i class="fa-brands fa-instagram"></i>
           </a>
-          <a href="#" class="sns-link" aria-label="카카오톡" target="_blank" rel="noopener noreferrer">
+          <a href="http://pf.kakao.com/_gxoDDT" class="sns-link" aria-label="카카오톡" target="_blank" rel="noopener noreferrer">
             <i class="fa-regular fa-comment-dots"></i>
           </a>
         </div>
@@ -682,9 +1461,13 @@
       <div class="footer__links">
         <h4>바로가기</h4>
         <ul>
+          <li><a href="#knowhow">헤어라인 노하우</a></li>
           <li><a href="#services">진료 과목</a></li>
+          <li><a href="#treatments">시술 종류</a></li>
+          <li><a href="#process">진료 과정</a></li>
           <li><a href="#doctor">의료진 소개</a></li>
-          <li><a href="#gallery">시술 사례</a></li>
+          <li><a href="#faq">자주 묻는 질문</a></li>
+          <li><a href="#gallery">수술 사례</a></li>
           <li><a href="#location">오시는 길</a></li>
           <li><a href="#contact">상담 예약</a></li>
         </ul>
@@ -694,11 +1477,33 @@
 
     <div class="footer__bottom">
       <div class="container footer__bottom-inner">
-        <p>&copy; 2026 모앤라인성형외과. All rights reserved.</p>
-        <p>본 사이트의 모든 콘텐츠는 저작권법에 의해 보호됩니다.</p>
+        <p>COPYRIGHT ⓒ2019 MO&amp;LINE SURGERY ALL RIGHTS RESERVED.</p>
+        <div class="footer__bottom-links">
+          <a href="#">개인정보취급방침</a>
+          <span>|</span>
+          <a href="#">이메일무단수집거부</a>
+        </div>
       </div>
     </div>
   </footer>
+
+  <!-- ==============================
+       FLOATING ACTION BUTTONS (Right side)
+  ================================ -->
+  <div class="floating-actions" id="floatingActions">
+    <a href="#contact" class="float-btn float-btn--consult" aria-label="빠른상담">
+      <i class="fa-solid fa-comments"></i>
+      <span class="float-btn__label">빠른상담</span>
+    </a>
+    <a href="http://pf.kakao.com/_gxoDDT" target="_blank" rel="noopener noreferrer" class="float-btn float-btn--kakao" aria-label="카톡상담">
+      <i class="fa-regular fa-comment-dots"></i>
+      <span class="float-btn__label">카톡상담</span>
+    </a>
+    <a href="tel:02-517-4890" class="float-btn float-btn--phone" aria-label="전화하기">
+      <i class="fa-solid fa-phone"></i>
+      <span class="float-btn__label">전화하기</span>
+    </a>
+  </div>
 
   <!-- Scroll-to-top button -->
   <button class="scroll-top" id="scrollTop" aria-label="맨 위로 이동">
@@ -706,5 +1511,6 @@
   </button>
 
   <script src="js/main.js"></script>
+  <script src="js/extended.js"></script>
 </body>
 </html>
