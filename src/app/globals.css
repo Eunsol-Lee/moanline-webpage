@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-navy: #0d1b2a;
+  --color-navy-light: #1a2d45;
+  --color-navy-dark: #070f18;
+  --color-gold: #c9a84c;
+  --color-gold-light: #e0c06a;
+  --color-gold-dark: #a87e30;
+  --color-off-white: #f8f6f1;
+  --color-background: #ffffff;
+  --color-foreground: #28241d;
+  --font-sans: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Gold underline utility */
+.gold-underline {
+  position: relative;
+}
+.gold-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #c9a84c;
+}
+
+/* Section divider */
+.section-divider {
+  width: 48px;
+  height: 3px;
+  background: linear-gradient(90deg, #c9a84c, #e0c06a);
+  margin: 0 auto;
+}
